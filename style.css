@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.menu{
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 631px;
+}
+.right{
+    width: 407px;
+}
+
+#search-input{
+    width: 286px;
+    height: 33px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    width: 351px;
+    justify-content: space-between;
+   
+}
+.list li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.list li a:hover{
+    color: red;
+  }
+
+#search-btn{
+    background-color: rgb(173, 216, 94);
+    width: 104px;
+    height: 33px;
+    border-radius: 38px;
+    cursor: pointer;
+    font-size: 18px;
+}
+#search-btn:hover{
+    background-color: rgb(155, 127, 36);
+    
+}
+.body_sec{
+  margin-top: 70px;
+  min-height: 100%;
+}
+
+.s1{
+    height: 550px;
+    background-color: #282A35;
+    padding-top: 205px;
+    padding-bottom: 90px;
+}
+.learntocodeh1{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.c1{
+    padding-left: 320px;
+    padding-right: 103px;
+}
+.learntocodeh3{
+    padding-left: 52px;
+    padding-right: 103px;
+    font-size: 24px;
+    color: pink;
+}
+.s2{
+    height: 500px;
+    background-color: #D9EEE1;
+    padding-top: 205px;
+    padding-bottom: 90px;
+}
+.c2{
+    display: flex;
+    justify-content: space-around;
+}
+.s2Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s2Left a{
+    background-color: black;
+    height: 32px;
+    width: 187px;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 44px;
+}
+
+.s2Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7E9EB;
+    margin-top: -90px;
+    width: 500px;
+    height: 374px;
+}
+.s2Right img{
+    height: 332px;
+    width: 424px;
+}
+footer{
+    height: 49px;
+    width: 100%;
+    background-color: #283634;
+    text-align: center;
+    color: white;
+}
